@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Angry Bile</title>
+  <rect width="512" height="512" rx="96" fill="#11110f"/>
+  <circle cx="91" cy="347" r="22" fill="#b6d617"/>
+  <circle cx="421" cy="151" r="15" fill="#b6d617"/>
+  <circle cx="397" cy="389" r="28" fill="#b6d617"/>
+  <path fill="#b6d617" d="M256 55c-28 63-128 151-128 258 0 78 57 137 128 137s128-59 128-137C384 206 284 118 256 55Z"/>
+  <path d="m181 255 59 20-67 18m158-38-59 20 67 18" fill="none" stroke="#11110f" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m198 359 31-20 28 20 29-20 30 20" fill="none" stroke="#11110f" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256 450c0 30-15 45-34 45 9-14 7-29 1-45Z" fill="#b6d617"/>
+</svg>
