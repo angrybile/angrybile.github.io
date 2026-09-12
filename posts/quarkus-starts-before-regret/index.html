@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quarkus Makes Java Start Before You Regret Choosing Java</title>
+  <meta name="description" content="The JVM can now fail before Prometheus has discovered the pod.">
+  <link rel="canonical" href="https://angrybile.github.io/posts/quarkus-starts-before-regret/">
+  <meta property="og:title" content="Quarkus Makes Java Start Before You Regret Choosing Java">
+  <meta property="og:description" content="The JVM can now fail before Prometheus has discovered the pod.">
+  <meta property="og:url" content="https://angrybile.github.io/posts/quarkus-starts-before-regret/">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/images/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="alternate" type="application/rss+xml" title="Angry Bile RSS" href="/rss.xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="site-header compact"><a class="brand" href="/">Angry Bile</a><p>Enterprise-grade resentment.</p></header>
+<main>
+<article class="post">
+  <time datetime="2026-02-03">2026-02-03</time>
+  <h1>Quarkus Makes Java Start Before You Regret Choosing Java</h1>
+  <p class="dek">The JVM can now fail before Prometheus has discovered the pod.</p>
+  <div class="prose"><p>Quarkus 3.32 integrated Project Leyden’s AOT cache support. Quarkus reported a minimal REST application improving from roughly 370 milliseconds to 80 milliseconds, while a larger 9,000-class application improved from about three seconds to 900 milliseconds after training.</p>
+<p>Java startup is now so fast that your Kubernetes pod can fail before Prometheus has discovered it.</p>
+<p>Project Leyden records class loading, linking and profiling during a training run, then packages that knowledge into a cache for later executions.</p>
+<p>This is called ahead-of-time optimization.</p>
+<p>It should not be confused with native compilation, class-data sharing, profile-guided optimization, CRaC checkpoints, application class-data sharing, static images or keeping the JVM running — which remains the most reliable way to make its second startup instantaneous.</p>
+<p>The benchmark results are impressive.</p>
+<p>A minimal REST application starts in 80 milliseconds, meaning it can now begin listening before the service mesh, policy agent, telemetry collector, secrets sidecar and twelve Kubernetes controllers have finished preventing anyone from reaching it.</p>
+<p>Java startup was once the bottleneck.</p>
+<p>We fixed it.</p>
+<p>The bottleneck is now everything invented to compensate for Java startup.</p>
+</div>
+  <aside class="sources"><h2>Sources</h2><ul><li><a href="https://quarkus.io/blog/quarkus-3-32-released/" rel="noreferrer">https://quarkus.io/blog/quarkus-3-32-released/</a></li></ul></aside>
+</article>
+<section class="comments"><h2>The Spill</h2>
+<script src="https://giscus.app/client.js" data-repo="angrybile/angrybile.github.io" data-repo-id="R_kgDOTqkPIg" data-category="Announcements" data-category-id="DIC_kwDOTqkPIs4DCevw" data-mapping="pathname" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async></script>
+</section>
+</main>
+<footer><a href="/">Return to the heap</a> · <a href="/archive/">Accumulated Bile</a><p>Published with several objections.</p></footer>
+
+</body>
+</html>
